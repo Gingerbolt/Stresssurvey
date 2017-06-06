@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stresstastic</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Stress Coping Survey</h2>
+      </div>
+      <form id="stress_survey">
+        <div class="form-group">
+          <p>Which (if any) of the following stress related warning signs have you experienced in the past week?:</p>
+          <input type="checkbox" name="fun-symptoms" value="2">Headaches<br>
+          <input type="checkbox" name="fun-symptoms" value="2">Upset Stomach<br>
+          <input type="checkbox" name="fun-symptoms" value="2">Dry Mouth<br>
+          <input type="checkbox" name="fun-symptoms" value="2">Chest Pains/Accelerated Heartbeat<br>
+          <input type="checkbox" name="fun-symptoms" value="2">Difficulty Sleeping<br>
+          <input type="checkbox" name="fun-symptoms" value="2">Fatigue<br>
+          <input type="checkbox" name="fun-symptoms" value="2">Loss of Appetite/Overeating<br>
+          <input type="checkbox" name="fun-symptoms" value="2">Weakened Immune System<br>
+          <input type="checkbox" name="fun-symptoms" value="2">Lack of Concentration<br>
+          <input type="checkbox" name="fun-symptoms" value="2">Memory Problems<br>
+          <input type="checkbox" name="fun-symptoms" value="2">Jitters<br>
+          <input type="checkbox" name="fun-symptoms" value="2">Irritability<br>
+          <input type="checkbox" name="fun-symptoms" value="2">Anxiety<br>
+        </div>
+        <div class="form-group">
+          <p>Which (if any) of the following stress related warning signs have you experienced in the past month?:</p>
+          <input type="checkbox" name="fun-signs" value="1">Headaches<br>
+          <input type="checkbox" name="fun-signs" value="1">Upset Stomach<br>
+          <input type="checkbox" name="fun-signs" value="1">Dry Mouth<br>
+          <input type="checkbox" name="fun-signs" value="1">Chest Pains/Accelerated Heartbeat<br>
+          <input type="checkbox" name="fun-signs" value="1">Difficulty Sleeping<br>
+          <input type="checkbox" name="fun-signs" value="1">Fatigue<br>
+          <input type="checkbox" name="fun-signs" value="1">Loss of Appetite/Overeating<br>
+          <input type="checkbox" name="fun-signs" value="1">Weakened Immune System<br>
+          <input type="checkbox" name="fun-signs" value="1">Lack of Concentration<br>
+          <input type="checkbox" name="fun-signs" value="1">Memory Problems<br>
+          <input type="checkbox" name="fun-signs" value="1">Jitters<br>
+          <input type="checkbox" name="fun-signs" value="1">Irritability<br>
+          <input type="checkbox" name="fun-signs" value="1">Anxiety<br>
+        </div>
+        <div class="form-group">
+          <p>Which of the following coping mechanisms do you regularly use?:</p>
+          <input type="checkbox" name="fun-coping" value="1.5">Exercise<br>
+          <input type="checkbox" name="fun-coping" value="1.5">Hobbies<br>
+          <input type="checkbox" name="fun-coping" value="1.5">Pet Ownership<br>
+          <input type="checkbox" name="fun-coping" value="1.5">Sing<br>
+          <input type="checkbox" name="fun-coping" value="1.5">Let Yourself Cry<br>
+          <input type="checkbox" name="fun-coping" value="1.5">Clean Something<br>
+          <input type="checkbox" name="fun-coping" value="1.5">Regulate Sleep Pattern<br>
+          <input type="checkbox" name="fun-coping" value="1.5">Meditate<br>
+          <input type="checkbox" name="fun-coping" value="1.5">Therapy<br>
+          <input type="checkbox" name="fun-coping" value="1.5">Go to the Gun Range<br>
+          <input type="checkbox" name="fun-coping" value="1.5">Dance<br>
+          <input type="checkbox" name="fun-coping" value="1.5">Eat Play-Dough<br>
+          <input type="checkbox" name="fun-coping" value="1.5">Drugs<br>
+        </div>
+       <button type="submit">Submit Survey</button>
+      </form>
+      <div class="lame" id="hidereset">
+      <span id="stressed">
+        <p><b>We advise you to look into further modes of stress relief</b></p>
+      </span>
+      <br>
+      <span id="unstressed">
+        <p><b>Good job managing your stress levels!</b></p>
+      </span>
+      <br>
+      <span id="even">
+        <p><b>According to our metrics you are doing a good job managing stress, but you're cutting it close.</b></p>
+      </span>
+      </div>
+    </div>
+  </body>
+</html>
